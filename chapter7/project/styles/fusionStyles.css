@@ -1,0 +1,112 @@
+body 
+{
+	background-color: #f2efea;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	background-color: #d7e1f2;
+	color: #1f2123;
+	font-weight: bold;
+}
+
+div.dish
+{
+	background-color: rgb(247, 185, 86);
+	padding: 10px;
+	margin: 10px;
+	border: 2px dashed #191970;
+}
+
+header, header h1, footer 
+{
+	color: #bc8e43;
+}
+footer
+{
+	font-size: 1rem;
+}
+nav, nav h2, nav a
+{
+	background-color: #474644;
+	color: #FFFFFF;
+}
+nav ul li
+{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.dish h1, .dish h2, .dish h3, .dish h4, .dish h5, .dish h6 {
+	font-style: italic;
+}
+div.dish
+{
+	border-radius: 25px;
+}
+#location
+{
+	list-style-image: url(../images/arrow4.png);
+}
+a:visited
+{
+	color: #00ff00;
+}
+nav ul a:visited
+{
+	text-decoration: none;
+	color: #ff7f00;
+}
+div.dish details
+{
+	color: red;
+}
+p.underConstruction
+{
+	color: orange;
+	font-style: italic;
+}
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+	background-color: #b0b0b0;
+}
+
+th, td 
+{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(odd){background-color: #f2f2f2}
+}
+tr:hover td
+{
+  background-color: #0000ff;
+}
+.baka 
+{
+
+	background-color: rgb(247, 185, 86);
+	padding: 3px;
+	margin: 3px;
+	border: 3px dashed #191970;
+}
+div.dish{
+	margin: auto;
+    width: 100vh;
+    max-width: 100vw;
+    min-width: 500px;
+}
+   /* If the screen size is 500px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  div.dish {
+    display: none;
+  }
+}
+* {
+	background-color: #00FFFF;
+	accent-color-1: #567AB3;
+	accent-color-2: #849EC7;
+	action-color: #3C9340;
+}

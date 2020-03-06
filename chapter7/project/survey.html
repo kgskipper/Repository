@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Kenneth Skipper's Food Fusion </title>
+		<link rel="stylesheet" href="styles/fusionStyles.css">
+		
+		
+	</head>
+	<body>
+	
+	<header>
+	<h1 class="visible"> <center> Kenneth Skipper's Food Fusion <br> <img src= "images/image 1 logo.jpg" height="300" width="800"/> </h1></center>
+	</header>
+	
+		<nav>
+		<center>
+		<ul> 
+		<li> <a href="index.html"> Index</a> </li>
+		<li> <a href="about.html"> About Us</a> </li>
+		<li> <a href="breakfast.html"> Breakfast</a> </li>
+		<li> <a href="lunch.html"> Lunch</a> </li>
+		<li> <a href="dinner.html"> Dinner</a> </li>
+		<li> <a href="extras.html"> Appetizers and Extras</a> </li>
+		<li> <a href="locations.html"> Locations</a> </li>
+		<li> <a href="contact.html"> Contact Us</a> </li>
+		<li> <a href="events.html"> Special Events</a> </li>
+		<li> <a href="order.html"> Online Ordering</a> </li>
+		</ul>
+		</center>	
+		</nav>
+	
+	<center>
+<form action="#" method="get">
+	<legend> SurveyForm:</legend> <br>
+	Please enter your phone number for raffle <br>
+	This field is required <br>
+	<div>
+	<label for="telephone number"> Telephone Number </label>
+	<input id="numberInput" input type="text" name="telephone number" placeholder="###-###-####"> <br>
+	</div>
+	<br>
+	Please enter your name <br>
+	This field is required <br>
+	<div>
+	<label for="name">Input name</label>
+	<input id="nameInput" input type="text" name="name" placeholder="Albert Einstein"> <br>
+	
+	<p id="output"></p>
+	</div>
+	<br>
+	<br>
+	Please Select your favorite dish from this list <br>
+	<div id="dishSelect">
+	<label for="FavoriteDish">FavoriteDish</label>
+	<select name="FavoriteDish">
+		<option value="Rift Biscuit">Rift Biscuit</option>
+		<option value="Nexus Platter">Nexus Platter</option>
+		<option value="Shrimp Linguini de Fiora">Shrimp Linguini de Fiora</option>
+		<option value="Pub Stuff">Pub Stuff</option>
+		<option value="Nami's Regret">Nami's Regret</option>
+		<option value="Alistar's Ult">Alistar's Ult</option>
+		<option value="Inhib Respawn">Inhib Respawn</option>
+		<option value="100% Pick Rate">100% Pick Rate</option>
+	</select>
+	<p id ="userSelect"></p> </p>
+	</div>
+	<br>
+	<br>
+	Please Rate the Restaurant on a scale from 1-10 <br>
+	<div id="userRating">
+	<label for="Rating"> Rating </label>
+	<input class="bar" id="rangeInput" type="range" name="Rating" min="0" max="10">
+	<p id ="rateInput"> </p>
+	</div>
+	
+	<br>
+	<br>
+	<label for="Comments"> Comments </label>
+	<textarea name="Comments" rows="10" cols="30">
+	Input any comments here.
+	</textarea> 
+	<br>
+	<br>
+	Please input the date the resaurant was visited
+	<div id="dateVisited">
+	<label for="date visited"> date visited </label>
+	<input type="date" name="date visited">
+	</div>
+	<br>
+	<br>
+	Please input the time of day the restaurant was visited <br>
+	<div id="timeofDay">
+	<label for="time of day"> time of day </label>
+	<br>
+	<input type="radio" name="time of day" value="early"> early <br>
+	<input type="radio" name="time of day" value="midday"> midday <br>
+	<input type="radio" name="time of day" value="afternoon"> afternoon <br>
+	<input type="radio" name="time of day" value="evening"> evening
+	</div>
+	<br>
+	<br>
+	Please input whether you do or do not give us permission to publish this survey <br>
+	<div id="userPermission">
+	<label for="permission" Permission </label>
+	<input type="checkbox" name="permission" value="No"> No<br>
+	<input type="checkbox" name="permission" value="Yes" checked> Yes
+	<br>
+	</div>
+	<br>
+	<div id="submitButton">
+	<input type="submit" value="Submit">
+	<p id="parasub"></p>
+	</div>
+	<br><br>
+	<div id="resetButton">
+	<input type="reset" value="Reset">
+	</div>
+	
+	
+	<br><br>
+</form>
+	<center>
+	
+	<script type ="text/JavaScript" src="scripts/survey.js">
+		</script>
+	<footer>
+	<f> <center> ©Kenneth'sFoodFusion <a href="survey.html"> Help Us Serve You Better</a> <a href="employment.html"> Job Opportunities</a> </center>
+	</footer>
+	
+	
+	</body>
+</html>
